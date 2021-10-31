@@ -1,0 +1,333 @@
+html, body, h1, h2, h3, h4, h5, h6, p, div, ul,li,nav {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif ;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+li,p {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+/*body {
+    background-color: rgb(170, 193, 140);
+}*/
+
+
+
+
+
+
+/*loading*/
+
+#loading {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+    transition-delay: 3s;
+    transition-timing-function: ease-in;
+    background-color: rgb(240, 107, 78);
+}
+
+.loadingc {
+    position: fixed;
+    z-index: 1100;
+    top: 30%;
+    left: 45%;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/merry-go-round-night-697663.jpg);
+    animation: color_guard 4.0s infinite ease-out;
+}
+
+@keyframes color_guard {
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(0, 0);
+    }
+    33% {
+        transform: translate(0, -2.4%);
+    }
+    40% {
+        transform: translate(0, -2.7%);
+    }
+    47% {
+        transform: translate(0, -2.7%);
+    }
+    75% {
+        transform: translate(0, -0.2%);
+    }
+    80%{
+        opacity: 1;
+    }
+    83% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, -5%);
+        opacity: 0;
+    }
+}
+
+
+.loading {
+    position: fixed;
+    top: 60%;
+}
+
+.loading-l {
+    left: 50%;
+    animation: bounds 3s 0.1s infinite;   
+}
+
+.loading-o {
+    left: 51%;
+    animation: bounds 3s 0.2s infinite;   
+}
+
+.loading-a {
+    left: 52%;
+    animation: bounds 3s 0.3s infinite;   
+}
+
+.loading-d {
+    left: 53%;
+    animation: bounds 3s 0.4s infinite;   
+}
+
+.loading-i {
+    left: 54%;
+    animation: bounds 3s 0.5s infinite;   
+}
+
+.loading-n {
+    left: 55%;
+    animation: bounds 3s 0.6s infinite;   
+}
+
+.loading-g {
+    left: 56%;
+    animation: bounds 3s 0.7s infinite;   
+}
+
+.loading-dot1 {
+    left: 57%;
+    animation: bounds 3s 0.8s infinite;   
+}
+
+.loading-dot2 {
+    left: 58%;
+    animation: bounds 3s 0.9s infinite;   
+}
+
+.loading-dot3 {
+    left: 59%;
+    animation: bounds 3s 1s infinite;   
+}
+
+@keyframes bounds{
+    0%,100% {top: 60%;transform: scale(1);}
+	30% {top: 58%;}
+	50% {transform: scale(1);}
+	90% {top: 60%;transform: scale(1.2,0.8);}
+}
+
+
+
+.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+/*section*/
+
+
+
+/*navi*/
+.header {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 100px;
+    border-bottom: 1.5px solid rgb(240, 107, 78);
+    z-index: 100;
+}
+
+.logo {
+    position: absolute;
+    background-color: rgb(240, 107, 78);
+    width :6%;
+    height: 3%;
+    top: 25%;
+    left: 2%;
+}
+
+.navi {
+    position: absolute;
+    background-color: rgb(240, 107, 78);
+    width: 50%;
+    height: 30%;
+    top: 25%;
+    right: 0%;
+}
+
+
+
+
+/*contents*/
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    border-bottom: 1.5px solid rgb(240, 107, 78);
+    z-index: 10;
+}
+
+.contents {
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+
+.gallery {
+    position:relative;
+    text-align: center;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1.5px solid rgb(240, 107, 78);
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+.profile {
+    position: relative;
+    text-align: center;
+    width: auto;
+    z-index: 5;
+}
+
+.bg {
+    position: absolute;
+    background-image: url(../img/merry-go-round-night-697663.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+.sns {
+    position:relative;
+    text-align: center;
+    background-color: firebrick;
+    width: auto;
+    z-index: 10;
+}
+
+
+.contact {
+    position: relative;
+    background-color: burlywood;
+    text-align: center;
+    width: auto;
+    z-index: 10;
+}
+
+
+
+
+.dark {
+    position: absolute;
+    z-index: 11;
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+}
+
+.kirak {
+    position: absolute;
+    opacity: 0;
+    z-index: 15;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    left: 0%;
+    top: 0vh;
+}
+
+.on {
+    animation: on 2s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes on {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.off {
+    animation: off 2s ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes off {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
