@@ -1,0 +1,12 @@
+now: loading char(drum major concept)
+
+todo
+logo
+navi form
+navi, contents fonts
+confete
+merry-go-round img
+parallex
+marching band members design
+banner js
+responsive(phone) form
