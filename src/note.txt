@@ -1,12 +1,21 @@
 now: loading char(drum major concept)
 
 todo
+loading form lo
 logo
+favicon
 navi form
 navi, contents fonts
 confete
 merry-go-round img
-parallex
+parallex js
 marching band members design
 banner js
 responsive(phone) form
+to the top icon
+smooth scrolling css
+
+
+note
+bg 255, 255, 255
+main 240, 107, 78
