@@ -9,7 +9,6 @@ html {
 }
 
 html, body {
-    overflow-x: hidden;
     height: 100%;
 }
 
@@ -20,6 +19,7 @@ button {
 
 ul {
     list-style: none;
+    display: inline;
 }
 
 li,p {
@@ -182,6 +182,7 @@ a {
     background-color: rgba(255, 255, 255, 0.7);
     width: 100%;
     height: 100px;
+    top: 0%;
     border-bottom: 1.5px solid rgb(240, 107, 78);
     z-index: 100;
 }
@@ -252,7 +253,7 @@ a {
     z-index: 5;
 }
 
-.bg {
+/*.bg {
     position: absolute;
     background-image: url(../img/merry-go-round-night-697663.jpg);
     background-repeat: no-repeat;
@@ -261,6 +262,11 @@ a {
     top: 0%;
     left: 0%;
     z-index: -1;
+}*/
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
 
 .sns {
@@ -304,30 +310,10 @@ a {
     top: 0vh;
 }
 
-.on {
-    animation: on 2s ease-in;
-    animation-fill-mode: forwards;
-}
 
-@keyframes on {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-.off {
-    animation: off 2s ease-out;
-    animation-fill-mode: forwards;
-}
-
-@keyframes off {
-    0%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
+.tttop {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    z-index: 900;
 }
