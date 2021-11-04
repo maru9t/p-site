@@ -3,7 +3,7 @@
 <html lang="jp">
 <head>
     <meta charset="utf-8">
-    <title>doubutsu no mori</title>
+    <title>marching band</title>
     <meta name="author" content="yoshikun">
     <meta name="description" content="sakuhinshu">
 <!--https://ogp.me/
@@ -30,6 +30,8 @@
     <script src="js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
 
@@ -42,10 +44,13 @@
             </div>
             <nav class="navi">
             <ul>
-                <a<img src="img/20200112_133345.jpg" alt="banner" height="20px" width="30px"></a>
+                <a href="#top">p<img src="img/20200112_133345.jpg" alt="banner" height="20px" width="30px"></a>
             </ul>
             <ul>
-                <a><img src="img/20200112_133345.jpg" alt="banner" height="20px" width="30px"></a>
+                <a>p<img src="img/20200112_133345.jpg" alt="banner" height="20px" width="30px"></a>
+            </ul>
+            <ul>
+                <a>p<img src="img/20200112_133345.jpg" alt="banner" height="20px" width="30px"></a>
             </ul>
             </nav> 
         </div>
@@ -72,8 +77,12 @@
 
 
             <div class="banner">
-                <img src="img/20200112_133345.jpg" alt="banner" height="500px">
-             </div>
+                <ul class="slider">
+                <li><img src="img/20200112_133345.jpg" alt="banner" height="500px"></li>
+                <li><img src="img/20200112_133345.jpg" alt="banner" height="500px"></li>
+                <li><img src="img/20200112_133345.jpg" alt="banner" height="500px"></li>
+                </ul>
+            </div>
        
 
              <div class="contents">
@@ -92,12 +101,15 @@
 
 
                  <div class="profile">
+                    
+                    <!--parallax-->
+                    <div class="parallax-window"
+                    data-parallax="scroll" data-image-src="img/merry-go-round-night-697663.jpg">
+
                     <h1>profile</h1>
                     <img class="js-trigger1" src="img/20200112_133345.jpg" alt="banner" height="500px">
-                    
-                    <!--パララックス-->
-                    <div class="rellax bg"
-                    data-rellax-speed="2" data-rellax-percentage="1" data-rellax-zindex="-5"></div>
+
+                    </div>
 
                     </div>
 
@@ -120,6 +132,10 @@
                  </div>
 
              </div>
+        </div>
+
+        <div class="tttop">
+            <a href="#top"><img src="img/20200112_133345.jpg" width="50px" height="50px" alt="ttt"></a>
         </div>
 
     </section>
@@ -148,11 +164,11 @@
     <script>
         var rellax = new Rellax('.rellax');
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
 
 
 </body>
 
-<!--site design color
-https://small-road.com/color-palette-forest/
--->
+
 </html>
