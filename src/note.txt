@@ -1,16 +1,16 @@
 now: loading char(drum major concept)
+　   slick form
+     navi edit theme fonts hover
+     logo&favicon design
+     
 
 todo
 loading form lo
-logo
-favicon
-navi form
-navi, contents fonts
 confete
 merry-go-round img
-parallex js
 marching band members design
-banner js
+div color change
+contents edit
 responsive(phone) form
 to the top icon
 smooth scrolling css
