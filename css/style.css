@@ -19,7 +19,6 @@ button {
 
 ul {
     list-style: none;
-    display: inline;
 }
 
 li,p {
@@ -198,11 +197,47 @@ a {
 
 .navi {
     position: absolute;
-    background-color: rgb(240, 107, 78);
+    background-color: rgb(204, 255, 17);
     width: 50%;
     height: 30%;
     top: 25%;
     right: 0%;
+}
+
+.agallery {
+    position: absolute;
+    background-color: rgb(240, 107, 78);
+    width: 2%;
+    height: 2vh;
+    top: 20%;
+    right: 60%;
+}
+
+.aprofile {
+    position: absolute;
+    background-color: rgb(240, 107, 78);
+    width: 2%;
+    height: 2vh;
+    top: 20%;
+    right: 50%;
+}
+
+.asns {
+    position: absolute;
+    background-color: rgb(240, 107, 78);
+    width: 2%;
+    height: 2vh;
+    top: 20%;
+    right: 40%;
+}
+
+.acontact {
+    position: absolute;
+    background-color: rgb(240, 107, 78);
+    width: 2%;
+    height: 2vh;
+    top: 20%;
+    right: 30%;
 }
 
 
