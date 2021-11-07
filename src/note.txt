@@ -1,10 +1,13 @@
-now: loading char(drum major concept)
-　   slick form
+now: slick form
      navi edit theme fonts hover
      logo&favicon design
+     naming
+     lightbox(photo swipe)
+     
      
 
 todo
+jump location
 loading form lo
 confete
 merry-go-round img
