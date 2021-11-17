@@ -15,8 +15,10 @@ marching band members design
 div color change
 contents edit
 responsive(phone) form
+seo
+scss
 to the top icon
-smooth scrolling css
+
 
 
 note
